@@ -1,1 +1,10 @@
-spring.application.name=spotify-to-kafka-service
+spring:
+  application:
+  name: spotify-to-kafka-service
+
+spotify-to-kafka-service:
+  spotify-keywords:
+    - Bob Dylan
+    - Paul Simon
+    - Billie Eilish
+    - Stevie Ray Vaughan
