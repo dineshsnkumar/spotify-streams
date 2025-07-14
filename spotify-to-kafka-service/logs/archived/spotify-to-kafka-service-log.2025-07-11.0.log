@@ -1,0 +1,5 @@
+2025-07-11 13:16:29 [main] INFO  i.p.s.SpotifyToKafkaServiceApplication - Starting SpotifyToKafkaServiceApplication using Java 23.0.2 with PID 8633 (/Users/dinesh/Workspace/spotify-streams/spotify-to-kafka-service/target/classes started by dinesh in /Users/dinesh/Workspace/spotify-streams)
+2025-07-11 13:16:29 [main] INFO  i.p.s.SpotifyToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-11 13:16:29 [main] INFO  i.p.s.SpotifyToKafkaServiceApplication - Started SpotifyToKafkaServiceApplication in 0.562 seconds (process running for 0.918)
+2025-07-11 13:16:29 [main] INFO  i.p.s.SpotifyToKafkaServiceApplication - Application starting ....
+2025-07-11 13:16:29 [main] INFO  i.p.s.SpotifyToKafkaServiceApplication - [Bob Dylan, Paul Simon, Billie Eilish, Stevie Ray Vaughan]

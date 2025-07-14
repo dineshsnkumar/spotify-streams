@@ -1,10 +1,10 @@
 ## Description
 
-- Spotify Streaming processing using Event-driven microservices
+- Spotify Stream processing using Event-driven microservices
 
 ### Architecture
 
-- Data from the Spotify is pulled and saved to Postgres SQL using Kafka-streams
+- Data from the Spotify is saved to Postgres SQL using Kafka-streams
 
 
 ### TODO
