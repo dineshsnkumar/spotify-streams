@@ -32,6 +32,6 @@ public class SpotifyToKafkaServiceApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		LOG.info("Application starting ....");
 		LOG.info(Arrays.toString(spotifyToKafkaConfigData.getSpotifyKeywords().toArray()));
-		LOG.info(mockSpotifyRunner.convertToJson());
+		mockSpotifyRunner.mockRandomSpotifyTrack();
 	}
 }
