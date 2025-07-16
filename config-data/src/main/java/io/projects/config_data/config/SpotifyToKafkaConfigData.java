@@ -1,4 +1,4 @@
-package io.projects.spotify_to_kafka_service.config;
+package io.projects.config_data.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

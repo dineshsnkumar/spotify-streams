@@ -1,16 +1,18 @@
 package io.projects.spotify_to_kafka_service;
 
-import io.projects.spotify_to_kafka_service.config.SpotifyToKafkaConfigData;
+import io.projects.config_data.config.SpotifyToKafkaConfigData;
 import io.projects.spotify_to_kafka_service.listener.MockSpotifyRunner;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 import java.util.Arrays;
 
 @SpringBootApplication
+@ComponentScan(basePackages = "io.projects")
 public class SpotifyToKafkaServiceApplication implements CommandLineRunner {
 
 	private final Logger LOG = LoggerFactory.getLogger(SpotifyToKafkaServiceApplication.class);
