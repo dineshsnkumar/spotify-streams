@@ -1,0 +1,26 @@
+{"namespace": "io.projects.spotify.kafka.avro.model",
+  "type": "record",
+  "name": "SpotifyAvroModel",
+  "fields": [
+    {"name": "number", "type": "long"},
+    {"name": "track_id", "type": "long"},
+    {"name": "artists", "type": "string"},
+    {"name": "album_name", "type": "string"},
+    {"name": "track_name", "type": "string"},
+    {"name": "popularity", "type": "long"},
+    {"name": "duration_ms", "type": "long"},
+    {"name": "explicit", "type": "boolean"},
+    {"name": "danceability", "type": "long"},
+    {"name": "energy", "type": "long"},
+    {"name": "key", "type": "long"},
+    {"name": "mode", "type": "long"},
+    {"name": "speechiness", "type": "long"},
+    {"name": "acousticness", "type": "long"},
+    {"name": "instrumentalness", "type": "long"},
+    {"name": "liveness", "type": "long"},
+    {"name": "valence", "type": "long"},
+    {"name": "tempo", "type": "long"},
+    {"name": "time_signature", "type": "long"},
+    {"name": "track_genre", "type": "string"}
+  ]
+}
