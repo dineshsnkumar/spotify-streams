@@ -1,7 +1,6 @@
 server:
   port: 8083
 
-
 spring:
   application:
   name: spotify-to-kafka-service
@@ -12,3 +11,13 @@ spotify-to-kafka-service:
     - Paul Simon
     - Billie Eilish
     - Stevie Ray Vaughan
+
+kafka-config:
+  bootstrap-servers: localhost:19092, localhost:29092, localhost:39092
+  schema-registry-url-key: schema.registry.url
+  schema-registry-url: http://localhost:8081
+  topic-name: spotify-topic
+  topic-names-to-create:
+    - spotify-topic
+  num-of-partitions: 3
+  replication-factor: 3
